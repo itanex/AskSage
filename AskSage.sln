@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskSageControllerApi", "AskSageControllerApi\AskSageControllerApi.csproj", "{E0B5E278-C448-4637-B9FC-AA39D075FFBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskSageMinimalApi", "AskSageMinimalApi\AskSageMinimalApi.csproj", "{FCC8C330-30A7-483F-9182-0079A625E8EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskSageMinimalApi.Test", "AskSageMinimalApi.Test\AskSageMinimalApi.Test.csproj", "{A2CAC95F-179E-4EE7-9C6B-C0195234776B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AskSageMinimal", "AskSageMinimal", "{FE551724-7921-481F-BE16-9952F29A2213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AskSageController", "AskSageController", "{AB0FD90D-B016-4C37-BEEE-EC3585C28834}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AskSageControllerApi.Test", "AskSageControllerApi.Test\AskSageControllerApi.Test.csproj", "{8BB9664E-B158-4786-B5EC-C6608F6D2288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskSage.BlazorClient", "AskSage.BlazorClient\AskSage.BlazorClient.csproj", "{2CF388AA-F421-401E-89B4-06C0E06B6010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B5E278-C448-4637-B9FC-AA39D075FFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B5E278-C448-4637-B9FC-AA39D075FFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B5E278-C448-4637-B9FC-AA39D075FFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B5E278-C448-4637-B9FC-AA39D075FFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC8C330-30A7-483F-9182-0079A625E8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC8C330-30A7-483F-9182-0079A625E8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC8C330-30A7-483F-9182-0079A625E8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC8C330-30A7-483F-9182-0079A625E8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CAC95F-179E-4EE7-9C6B-C0195234776B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CAC95F-179E-4EE7-9C6B-C0195234776B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CAC95F-179E-4EE7-9C6B-C0195234776B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CAC95F-179E-4EE7-9C6B-C0195234776B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB9664E-B158-4786-B5EC-C6608F6D2288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB9664E-B158-4786-B5EC-C6608F6D2288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB9664E-B158-4786-B5EC-C6608F6D2288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB9664E-B158-4786-B5EC-C6608F6D2288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF388AA-F421-401E-89B4-06C0E06B6010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF388AA-F421-401E-89B4-06C0E06B6010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF388AA-F421-401E-89B4-06C0E06B6010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF388AA-F421-401E-89B4-06C0E06B6010}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0B5E278-C448-4637-B9FC-AA39D075FFBC} = {AB0FD90D-B016-4C37-BEEE-EC3585C28834}
+		{FCC8C330-30A7-483F-9182-0079A625E8EA} = {FE551724-7921-481F-BE16-9952F29A2213}
+		{A2CAC95F-179E-4EE7-9C6B-C0195234776B} = {FE551724-7921-481F-BE16-9952F29A2213}
+		{8BB9664E-B158-4786-B5EC-C6608F6D2288} = {AB0FD90D-B016-4C37-BEEE-EC3585C28834}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E7CA6A1-4656-40EB-8ED2-BD11ACE800EC}
+	EndGlobalSection
+EndGlobal
